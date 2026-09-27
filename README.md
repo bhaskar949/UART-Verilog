@@ -10,7 +10,7 @@ A complete, fully parameterizable, synthesizable, and self-checking **Universal 
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Key Features](#-key-features)
 - [Repository Structure (GitHub Files)](#-repository-structure-github-files)
 - [Architecture & Block Diagram](#-architecture--block-diagram)
@@ -25,7 +25,7 @@ A complete, fully parameterizable, synthesizable, and self-checking **Universal 
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Full-Duplex Operation**: Independent simultaneous transmission and reception.
 - **16× Oversampling Receiver**: High noise immunity with mid-bit sampling at the 8th tick of each bit period.
@@ -43,7 +43,7 @@ A complete, fully parameterizable, synthesizable, and self-checking **Universal 
 
 ---
 
-## 📁 Repository Structure (GitHub Files)
+##  Repository Structure (GitHub Files)
 
 The files in this repository are structured specifically for version control and clean Vivado project recreation:
 
@@ -69,7 +69,7 @@ URAT/
 
 ---
 
-## 🏗 Architecture & Block Diagram
+##  Architecture & Block Diagram
 
 ```
                               +-------------------------------------------------------------+
@@ -100,7 +100,7 @@ URAT/
 
 ---
 
-## 🧩 Module Descriptions
+##  Module Descriptions
 
 | Module | Purpose | Key Sub-functions |
 | :--- | :--- | :--- |
@@ -112,7 +112,7 @@ URAT/
 
 ---
 
-## 🚀 Vivado Quick-Start Guide
+##  Vivado Quick-Start Guide
 
 ### Method 1: Automated TCL Script (Recommended)
 
@@ -120,7 +120,7 @@ URAT/
 2. Open the **Tcl Console** (bottom panel of Vivado).
 3. Change directory to this project folder:
    ```tcl
-   cd {C:/Users/bhask/OneDrive/ドキュメント/G.Pro/URAT}
+   cd {C:/"FOLDER LOCATON"}
    ```
 4. Run the project generation script:
    ```tcl
@@ -167,7 +167,7 @@ URAT/
 
 ---
 
-## 🔬 Simulation & Verification
+##  Simulation & Verification
 
 ### Running Behavioral Simulation in Vivado
 1. In the Flow Navigator, click **Run Simulation** $\rightarrow$ **Run Behavioral Simulation**.
@@ -206,7 +206,7 @@ URAT/
 
 ---
 
-## 🔌 FPGA Pin Constraints & Synthesis
+##  FPGA Pin Constraints & Synthesis
 
 The included [`uart_basys3.xdc`](uart_basys3.xdc) maps UART signals to hardware pins on the **Digilent Basys 3**:
 
@@ -229,7 +229,7 @@ The included [`uart_basys3.xdc`](uart_basys3.xdc) maps UART signals to hardware 
 
 ---
 
-## 📊 Interactive Presentation
+##  Interactive Presentation
 
 An interactive HTML5 presentation deck is included in [`uart_presentation.html`](uart_presentation.html).
 
@@ -251,7 +251,7 @@ An interactive HTML5 presentation deck is included in [`uart_presentation.html`]
 
 ---
 
-## 🐙 GitHub Upload Guide
+##  GitHub Upload Guide
 
 To initialize and push this project to your GitHub account, run these commands from the project directory:
 
