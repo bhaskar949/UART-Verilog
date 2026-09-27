@@ -1,0 +1,43 @@
+# =============================================================================
+# Vivado & FPGA Project Git Ignore
+# =============================================================================
+
+# Vivado project directories and outputs
+uart_vivado_proj/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.cache/
+*.hw/
+*.tmp/
+.Xil/
+
+# Vivado generated log, journal, and temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.bit
+*.bin
+*.dcp
+*.rpt
+*.dir/
+
+# Simulator outputs (Icarus / ModelSim / Questa / VCS)
+sim_out
+sim_out.exe
+*.vstf
+*.wlf
+transcript
+work/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
