@@ -1,10 +1,9 @@
 # Full-Duplex UART Core with FIFO & 16× Oversampling (Xilinx Vivado & FPGA Ready)
 
-[![Verilog](https://img.shields.io/badge/Language-Verilog_2001-blue.svg)](https://en.wikipedia.org/wiki/Verilog)
+[![Verilog](https://img.shields.io/badge/Language-Verilog-blue.svg)](https://en.wikipedia.org/wiki/Verilog)
 [![Tool](https://img.shields.io/badge/EDA-Xilinx_Vivado-red.svg)](https://www.xilinx.com/products/design-tools/vivado.html)
 [![FPGA](https://img.shields.io/badge/Target-Basys3_/_Artix--7-orange.svg)](https://digilent.com/reference/programmable-logic/basys-3/start)
-[![Simulation](https://img.shields.io/badge/Simulation-XSIM_/_Icarus_PASS_(9/9)-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 A complete, fully parameterizable, synthesizable, and self-checking **Universal Asynchronous Receiver-Transmitter (UART)** designed in Verilog HDL. Optimized for **Xilinx Vivado** development and hardware deployment on **Xilinx 7-Series FPGAs** (such as Digilent Basys 3, Nexys A7, or custom Artix-7/Zynq/Spartan boards).
 
@@ -277,6 +276,3 @@ git push -u origin main
 ```
 
 ---
-
-## 📄 License
-This project is licensed under the [MIT License](LICENSE) — free for educational, personal, and commercial FPGA / ASIC projects.
