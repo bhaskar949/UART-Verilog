@@ -256,7 +256,7 @@ To initialize and push this project to your GitHub account, run these commands f
 
 ```bash
 # 1. Navigate to the project directory
-cd "C:\Users\bhask\OneDrive\ドキュメント\G.Pro\URAT"
+cd "C:\"Project Floder""
 
 # 2. Initialize a local Git repository
 git init
